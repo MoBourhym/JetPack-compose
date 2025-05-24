@@ -13,6 +13,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import fr.iutlan.tp4.carrefour.ui.MainActivityCarrefourView
 import fr.iutlan.tp4.feu3.ui.MainActivityFeu3View
 import fr.iutlan.tp4.ui.theme.TP4Theme
 
@@ -26,7 +27,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    MainActivityFeu3View()
+                    MainActivityCarrefourView() // <- Make sure this is the correct entry point
                 }
             }
         }
