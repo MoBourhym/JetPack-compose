@@ -191,7 +191,7 @@ Button(
 
 This button calls the **suivant()** method in the **ViewModel**, updating the state and triggering UI recomposition.
 
-![1748095573880](https://file+.vscode-resource.vscode-cdn.net/home/boo/AndroidStudioProjects/TP4/image/README/1748095573880.png "Traffic light")
+![Traffic light](image/README/1748095573880.png)
 
 ### 3.6 State Evolution (Feu3StateV2)
 
@@ -289,7 +289,7 @@ fun CarrefourView(state: CarrefourState, modifier: Modifier = Modifier, size: Dp
 
 The **offset** modifier positions the lights around the center to form a cross.
 
-![1748098406523](image/README/1748098406523.png)
+![the crossroad with four traffic lights](image/README/1748098406523.png)
 
 ## 5. Key Learnings
 
