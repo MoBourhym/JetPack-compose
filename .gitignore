@@ -1,0 +1,71 @@
+# Android specific
+.gradle/
+.idea/
+*.iml
+/local.properties
+/.DS_Store
+/build/
+captures/
+.externalNativeBuild
+
+# IntelliJ
+*.iws
+*.ipr
+*.iml
+
+# OS generated
+*.log
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Signing
+*.jks
+*.keystore
+
+# NDK
+obj/
+
+# VS Code (if used)
+.vscode/
+
+# Unit test results
+/test-results/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Crashlytics / Firebase
+crashlytics.properties
+firebase/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+
+# Android Studio Navigation Editor temp files
+.navigation/
+
+# Gradle
+.gradle/
+build/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+
+# Jetpack Compose
+*.cache
+*.kotlin_module
